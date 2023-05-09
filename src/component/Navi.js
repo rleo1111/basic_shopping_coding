@@ -11,32 +11,37 @@ function Navi() {
     navigate("/register");
   };
   return (
-    <Nav className="navigation" activeKey="/home">
-      <img className="logo" src={logo} alt="로고" />
-      <Nav.Item>
-        <Nav.Link className="link" href="/home">
-          Home
-        </Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link className="link" eventKey="link-1">
-          LInk1
-        </Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link className="link" eventKey="link-2">
-          Link2
-        </Nav.Link>
-      </Nav.Item>
-      <div className="right-buttons">
-        <button className="button login" onClick={handleLoginButton}>
-          Login
-        </button>
-        <button className="button register" onClick={handleRegisterButton}>
-          Register
-        </button>
-      </div>
-    </Nav>
+    <div className="navigation-bar">
+      <Nav activeKey="/home">
+        <img className="logo" src={logo} alt="logo" />
+        <Nav.Item>
+          <Nav.Link className="link" href="/">
+            Home
+          </Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link className="link" eventKey="link-1">
+            LInk1
+          </Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link className="link" eventKey="link-2">
+            Link2
+          </Nav.Link>
+        </Nav.Item>
+        <div className="right-buttons">
+          <button className="button login" onClick={handleLoginButton}>
+            Login
+          </button>
+          <button
+            className="button color-blue register"
+            onClick={handleRegisterButton}
+          >
+            Register
+          </button>
+        </div>
+      </Nav>
+    </div>
   );
 }
 
