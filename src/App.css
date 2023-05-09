@@ -1,0 +1,49 @@
+/* COMMON */
+
+.App {
+  width: 1680px;
+  height: 60px;
+}
+
+.button {
+  width: 130px;
+  height: 40px;
+  border: solid 1px #18a0fb;
+  color: #18a0fb;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+/* NAVIGATION */
+
+.navigation {
+  position: fixed;
+}
+
+.logo {
+  width: 122.07px;
+  height: 32px;
+  margin: 14px 50px 14px 80px;
+}
+
+.link {
+  margin: 10px 20px;
+  color: #18a0fb;
+}
+
+.right-buttons {
+  position: absolute;
+  display: flex;
+  left: 1378px;
+  top: 10px;
+}
+
+.login {
+  margin: 0 6px;
+}
+
+.register {
+  background-color: #18a0fb;
+  color: #fff;
+  margin: 0 6px;
+}
