@@ -2,6 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navi from "./component/Navi";
 import { Outlet } from "react-router-dom";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div>
         <Outlet />
       </div>
+      <Footer />
     </>
   );
 }
