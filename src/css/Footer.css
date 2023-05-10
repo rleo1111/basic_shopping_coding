@@ -1,0 +1,48 @@
+.footer-container {
+  width: 100%;
+  height: 501px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.first-container {
+  display: flex;
+  width: 1520px;
+  height: 72px;
+  margin: auto;
+  border-bottom: solid 1px;
+}
+
+.footer-item {
+  width: 173px;
+  height: 24px;
+  margin: 18px;
+  cursor: pointer;
+}
+
+.footer-logo {
+  width: 122.07px;
+  height: 32px;
+  margin-left: 120px;
+  margin-right: 120px;
+  cursor: pointer;
+}
+
+.footer-circle {
+  margin: 20px;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.footer-message {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
